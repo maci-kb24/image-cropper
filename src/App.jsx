@@ -1,11 +1,13 @@
+import DragZone from "./components/DragZone";
+
 
 function App() {
 
   return (
     <>
-      <h1 className="text-3xl font-bold underline">
-      Hello world!
-    </h1>
+      <div className="relative min-h-screen flex flex-col items-center justify-center p-2 bg-white-50 font-poppins">
+      <DragZone />
+    </div>
     </>
   )
 }
