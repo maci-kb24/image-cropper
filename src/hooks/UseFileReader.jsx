@@ -52,7 +52,7 @@ export const useFileReader = (options) => {
             setResult(null);
             setProgress(0);
         };
-    }, [file, accept, maxFileSize, method]); // Include missing dependencies here
+    }, [file]); // Include missing dependencies here
 
     return [{ result, error, file, progress }, setFile];
 };

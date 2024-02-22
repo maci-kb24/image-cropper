@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import DragZone from "./components/DragZone";
 import ImageCropper from "./components/ImageCropper";
-import { useFileReader } from "./hooks/UseFileReader";
+import { useFileReader } from "./hooks";
 import { AnimatePresence } from "framer-motion";
 
 function App() {
